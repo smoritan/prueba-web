@@ -1,0 +1,326 @@
+body{
+	background-image: url("backgroundweb.png");
+	font-family: 'Roboto Mono', monospace;
+	margin: 0;
+}
+h1{
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 8rem;
+	margin: 0px;
+}
+h2{
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 4rem;
+	margin: 0px;
+}
+h3{
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 1.6rem;
+	margin: 0px;
+}
+p{
+	color: #fff;
+	font-size: 0.9em;
+	margin-bottom: 0%;
+}
+.menu{
+	border-right: solid #313131 0.1em;
+	position: fixed;
+	margin: none;
+	padding: 0;
+	width: 6%;
+	height: 100%;
+}
+.menu img{
+	display: block;
+	margin-left: 25%;
+	margin-top: 30%;
+}
+.menu .social{
+	margin-top: 170%;
+}
+.menu .navegacion{
+	margin-top: 140%;
+	margin-bottom: 100%;
+}
+.menu .navegacion img{
+	margin-bottom: 30%;
+}
+#about{
+	width: 93%;
+	float: right;
+	}
+.title{
+	float: left;
+	margin-top: 6%;
+	width: 60%;
+}
+.title h1{
+	margin-left: 10%;
+}
+.title h2{
+	margin-left: 20%;
+}
+.title h3{
+	margin-top: 2%;
+	margin-left: 32%;
+}
+.botom{
+	border: solid #26E07F 0.1em;
+	width: 50%;
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 30%;
+}
+.contact{
+	color: #fff;
+	text-decoration: none;
+	margin-top: 40%;
+	font-size: 1.5em;
+}
+.aboutobjet{
+	width: 35%;
+	float: right;
+	margin-top: 1%;
+}
+#objet{
+	margin-left: 3%;
+}
+
+
+/*/////////////////////////////TYPING/////////////////////////////////////////*/
+.aboutobjet p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.aboutobjet p:nth-child(1) {
+  width: 3%;
+  -webkit-animation: type3 1s steps(40, end);
+  animation: type3 1s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.aboutobjet p:nth-child(2) {
+  width: 80%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.aboutobjet p:nth-child(3) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(4) {
+  width: 90%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(5) {
+  width: 73%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(6) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 1s steps(40, end);
+  animation: type3 1s steps(40, end);
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(7) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(8) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(9) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(10) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(11) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(12) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 13s;
+  animation-delay: 13s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(13) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 13.5s;
+  animation-delay: 13.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(14) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(15) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(16) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 16s;
+  animation-delay: 16s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(17) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 17s;
+  animation-delay: 17s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(18) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 18s;
+  animation-delay: 19s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.aboutobjet p:nth-child(19) {
+  width: 60%;
+  opacity: 0;
+  -webkit-animation: type3 1s steps(40, end);
+  animation: type3 1s steps(40, end);
+  -webkit-animation-delay: 20s;
+  animation-delay: 20s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: white;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+/*/////////////////////////////TYPING///END/////////////////////////////////*/
